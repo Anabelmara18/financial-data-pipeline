@@ -72,6 +72,8 @@ The Superset dashboard shows:
 - Monthly return heatmap
 
 ## Project Structure
+
+```text
 financial-data-pipeline/
 ├── dags/                    # Airflow DAG
 ├── data_ingestion/          # Fetch & export scripts
@@ -82,3 +84,4 @@ financial-data-pipeline/
 ├── docker-compose.yaml      # Docker setup
 ├── .env.example             # Environment template
 └── README.md
+```
