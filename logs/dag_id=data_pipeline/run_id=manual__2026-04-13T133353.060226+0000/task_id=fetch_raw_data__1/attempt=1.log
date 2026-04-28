@@ -1,0 +1,21 @@
+{"timestamp":"2026-04-13T13:33:59.413302Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-13T13:33:59.445825Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_dags.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-13T13:34:13.534646Z","level":"error","event":"$AAPL: possibly delisted; no price data found  (1d 2026-04-12 -> 2026-04-13)","logger":"yfinance","filename":"history.py","lineno":276}
+{"timestamp":"2026-04-13T13:34:13.544966Z","level":"error","event":"\n1 Failed download:","logger":"yfinance","filename":"multi.py","lineno":176}
+{"timestamp":"2026-04-13T13:34:13.557227Z","level":"error","event":"['AAPL']: possibly delisted; no price data found  (1d 2026-04-12 -> 2026-04-13)","logger":"yfinance","filename":"multi.py","lineno":189}
+{"timestamp":"2026-04-13T13:34:13.917725Z","level":"info","event":"⚠️ No data for AAPL — skipping","logger":"task.stdout"}
+{"timestamp":"2026-04-13T13:34:14.774053Z","level":"error","event":"$GOOGL: possibly delisted; no price data found  (1d 2026-04-12 -> 2026-04-13)","logger":"yfinance","filename":"history.py","lineno":276}
+{"timestamp":"2026-04-13T13:34:14.785422Z","level":"error","event":"\n1 Failed download:","logger":"yfinance","filename":"multi.py","lineno":176}
+{"timestamp":"2026-04-13T13:34:14.792353Z","level":"error","event":"['GOOGL']: possibly delisted; no price data found  (1d 2026-04-12 -> 2026-04-13)","logger":"yfinance","filename":"multi.py","lineno":189}
+{"timestamp":"2026-04-13T13:34:14.811855Z","level":"info","event":"⚠️ No data for GOOGL — skipping","logger":"task.stdout"}
+{"timestamp":"2026-04-13T13:34:15.665460Z","level":"error","event":"$MSFT: possibly delisted; no price data found  (1d 2026-04-12 -> 2026-04-13)","logger":"yfinance","filename":"history.py","lineno":276}
+{"timestamp":"2026-04-13T13:34:15.669565Z","level":"error","event":"\n1 Failed download:","logger":"yfinance","filename":"multi.py","lineno":176}
+{"timestamp":"2026-04-13T13:34:15.670149Z","level":"error","event":"['MSFT']: possibly delisted; no price data found  (1d 2026-04-12 -> 2026-04-13)","logger":"yfinance","filename":"multi.py","lineno":189}
+{"timestamp":"2026-04-13T13:34:15.693960Z","level":"info","event":"⚠️ No data for MSFT — skipping","logger":"task.stdout"}
+{"timestamp":"2026-04-13T13:34:16.438815Z","level":"error","event":"$NVDA: possibly delisted; no price data found  (1d 2026-04-12 -> 2026-04-13)","logger":"yfinance","filename":"history.py","lineno":276}
+{"timestamp":"2026-04-13T13:34:16.445222Z","level":"error","event":"\n1 Failed download:","logger":"yfinance","filename":"multi.py","lineno":176}
+{"timestamp":"2026-04-13T13:34:16.445677Z","level":"error","event":"['NVDA']: possibly delisted; no price data found  (1d 2026-04-12 -> 2026-04-13)","logger":"yfinance","filename":"multi.py","lineno":189}
+{"timestamp":"2026-04-13T13:34:16.453516Z","level":"info","event":"⚠️ No data for NVDA — skipping","logger":"task.stdout"}
+{"timestamp":"2026-04-13T13:34:19.507016Z","level":"info","event":"(3, 8)","logger":"task.stdout"}
+{"timestamp":"2026-04-13T13:34:19.932132Z","level":"info","event":"✅ Data saved to Postgres","logger":"task.stdout"}
+{"timestamp":"2026-04-13T13:34:19.930676Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":229}

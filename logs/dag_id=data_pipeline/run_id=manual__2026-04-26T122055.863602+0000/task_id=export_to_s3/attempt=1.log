@@ -1,0 +1,7 @@
+{"timestamp":"2026-04-26T12:21:58.424028Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-26T12:21:58.428521Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_dags.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-26T12:22:00.453849Z","level":"info","event":"✅ daily_returns — 4771 rows read from Postgres","logger":"task.stdout"}
+{"timestamp":"2026-04-26T12:22:04.746867Z","level":"info","event":"✅ daily_returns saved to S3: transformed/daily_returns_2026-04-26.csv","logger":"task.stdout"}
+{"timestamp":"2026-04-26T12:22:04.772862Z","level":"info","event":"✅ price_summary — 7 rows read from Postgres","logger":"task.stdout"}
+{"timestamp":"2026-04-26T12:22:05.465498Z","level":"info","event":"✅ price_summary saved to S3: transformed/price_summary_2026-04-26.csv","logger":"task.stdout"}
+{"timestamp":"2026-04-26T12:22:05.466692Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":229}

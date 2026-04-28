@@ -1,0 +1,30 @@
+{"timestamp":"2026-04-27T11:41:13.962299Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-27T11:41:13.972055Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_dags.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-27T11:41:25.903345Z","level":"info","event":"\u001b[0m11:41:19  Running with dbt=1.9.0","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.913730Z","level":"info","event":"\u001b[0m11:41:20  Registered adapter: postgres=1.9.0","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.914531Z","level":"info","event":"\u001b[0m11:41:22  Found 3 models, 7 data tests, 1 source, 434 macros","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.915154Z","level":"info","event":"\u001b[0m11:41:22","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.915840Z","level":"info","event":"\u001b[0m11:41:22  Concurrency: 4 threads (target='dev')","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.916552Z","level":"info","event":"\u001b[0m11:41:22","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.917239Z","level":"info","event":"\u001b[0m11:41:22  4 of 7 START test not_null_price_summary_all_time_low .......................... [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.917810Z","level":"info","event":"\u001b[0m11:41:22  3 of 7 START test not_null_daily_returns_ticker ................................ [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.918381Z","level":"info","event":"\u001b[0m11:41:22  1 of 7 START test accepted_values_daily_returns_ticker__AAPL__GOOGL__MSFT__NVDA__BTC_USD__ETH_USD__SOL_USD  [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.918981Z","level":"info","event":"\u001b[0m11:41:23  2 of 7 START test not_null_daily_returns_date .................................. [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.919634Z","level":"info","event":"\u001b[0m11:41:23  2 of 7 PASS not_null_daily_returns_date ........................................ [\u001b[32mPASS\u001b[0m in 0.58s]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.920245Z","level":"info","event":"\u001b[0m11:41:23  4 of 7 PASS not_null_price_summary_all_time_low ................................ [\u001b[32mPASS\u001b[0m in 0.59s]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.920948Z","level":"info","event":"\u001b[0m11:41:23  1 of 7 PASS accepted_values_daily_returns_ticker__AAPL__GOOGL__MSFT__NVDA__BTC_USD__ETH_USD__SOL_USD  [\u001b[32mPASS\u001b[0m in 0.60s]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.921579Z","level":"info","event":"\u001b[0m11:41:23  3 of 7 PASS not_null_daily_returns_ticker ...................................... [\u001b[32mPASS\u001b[0m in 0.61s]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.922118Z","level":"info","event":"\u001b[0m11:41:23  5 of 7 START test not_null_price_summary_latest_close .......................... [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.922775Z","level":"info","event":"\u001b[0m11:41:23  6 of 7 START test not_null_price_summary_ticker ................................ [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.923532Z","level":"info","event":"\u001b[0m11:41:23  7 of 7 START test unique_price_summary_ticker .................................. [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.924037Z","level":"info","event":"\u001b[0m11:41:23  5 of 7 PASS not_null_price_summary_latest_close ................................ [\u001b[32mPASS\u001b[0m in 0.14s]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.924535Z","level":"info","event":"\u001b[0m11:41:23  6 of 7 PASS not_null_price_summary_ticker ...................................... [\u001b[32mPASS\u001b[0m in 0.16s]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.925260Z","level":"info","event":"\u001b[0m11:41:23  7 of 7 PASS unique_price_summary_ticker ........................................ [\u001b[32mPASS\u001b[0m in 0.16s]","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.925931Z","level":"info","event":"\u001b[0m11:41:23","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.926506Z","level":"info","event":"\u001b[0m11:41:23  Finished running 7 data tests in 0 hours 0 minutes and 1.26 seconds (1.26s).","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.926988Z","level":"info","event":"\u001b[0m11:41:24","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.927450Z","level":"info","event":"\u001b[0m11:41:24  \u001b[32mCompleted successfully\u001b[0m","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.927935Z","level":"info","event":"\u001b[0m11:41:24","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.928406Z","level":"info","event":"\u001b[0m11:41:24  Done. PASS=7 WARN=0 ERROR=0 SKIP=0 TOTAL=7","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.929071Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-27T11:41:25.903957Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":229}

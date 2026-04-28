@@ -1,0 +1,12 @@
+.env
+logs/
+config/
+__pycache__/
+*.pyc
+.venv/
+finance_dbt/target/
+finance_dbt/.user.yml
+finance_dbt/dbt_packages/
+*.csv
+*.log
+finance_dbt/profiles.yml

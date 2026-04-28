@@ -1,0 +1,8 @@
+{"timestamp":"2026-04-25T00:26:17.413788Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-25T00:26:17.419269Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_dags.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-25T00:26:30.215292Z","level":"info","event":"⚠️ No data for BTC-USD — skipping","logger":"task.stdout"}
+{"timestamp":"2026-04-25T00:26:30.805651Z","level":"info","event":"⚠️ No data for ETH-USD — skipping","logger":"task.stdout"}
+{"timestamp":"2026-04-25T00:26:31.369978Z","level":"info","event":"⚠️ No data for SOL-USD — skipping","logger":"task.stdout"}
+{"timestamp":"2026-04-25T00:26:31.371633Z","level":"info","event":"(4, 8)","logger":"task.stdout"}
+{"timestamp":"2026-04-25T00:26:31.428689Z","level":"info","event":"✅ Data saved to Postgres","logger":"task.stdout"}
+{"timestamp":"2026-04-25T00:26:31.430154Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":229}

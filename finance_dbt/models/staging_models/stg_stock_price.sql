@@ -1,0 +1,1 @@
+select * from {{ source('public', 'finance_data') }} where close is not null

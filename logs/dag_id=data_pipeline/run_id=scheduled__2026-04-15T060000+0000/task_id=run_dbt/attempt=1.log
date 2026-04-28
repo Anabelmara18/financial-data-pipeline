@@ -1,0 +1,24 @@
+{"timestamp":"2026-04-15T18:49:00.626014Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-15T18:49:00.631396Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_dags.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-15T18:49:25.311012Z","level":"info","event":"\u001b[0m18:49:10  Running with dbt=1.9.0","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.312382Z","level":"info","event":"\u001b[0m18:49:11  Registered adapter: postgres=1.9.0","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.313681Z","level":"info","event":"\u001b[0m18:45:47  Unable to do partial parsing because of a version mismatch","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.314733Z","level":"info","event":"\u001b[0m18:49:18  Found 3 models, 7 data tests, 1 source, 434 macros","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.315869Z","level":"info","event":"\u001b[0m18:49:19","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.316800Z","level":"info","event":"\u001b[0m18:49:19  Concurrency: 4 threads (target='dev')","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.317650Z","level":"info","event":"\u001b[0m18:49:19","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.318685Z","level":"info","event":"\u001b[0m18:49:19  1 of 3 START sql view model public.stg_stock_price ............................. [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.319619Z","level":"info","event":"\u001b[0m18:49:20  1 of 3 OK created sql view model public.stg_stock_price ........................ [\u001b[32mCREATE VIEW\u001b[0m in 0.50s]","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.320665Z","level":"info","event":"\u001b[0m18:49:20  2 of 3 START sql table model public.daily_returns .............................. [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.321673Z","level":"info","event":"\u001b[0m18:49:20  3 of 3 START sql table model public.price_summary .............................. [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.322698Z","level":"info","event":"\u001b[0m18:49:20  3 of 3 OK created sql table model public.price_summary ......................... [\u001b[32mSELECT 7\u001b[0m in 0.59s]","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.323526Z","level":"info","event":"\u001b[0m18:49:20  2 of 3 OK created sql table model public.daily_returns ......................... [\u001b[32mSELECT 4877\u001b[0m in 0.63s]","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.324471Z","level":"info","event":"\u001b[0m18:49:20","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.325547Z","level":"info","event":"\u001b[0m18:49:20  Finished running 2 table models, 1 view model in 0 hours 0 minutes and 1.77 seconds (1.77s).","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.326516Z","level":"info","event":"\u001b[0m18:49:20","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.327229Z","level":"info","event":"\u001b[0m18:49:20  \u001b[32mCompleted successfully\u001b[0m","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.327851Z","level":"info","event":"\u001b[0m18:49:20","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.328616Z","level":"info","event":"\u001b[0m18:49:20  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.329564Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.330613Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-15T18:49:25.310294Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":229}

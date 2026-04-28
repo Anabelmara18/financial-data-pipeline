@@ -1,0 +1,51 @@
+{"timestamp":"2026-04-12T22:25:16.818730Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-12T22:25:16.824816Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_dags.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-12T22:25:36.471939Z","level":"info","event":"\u001b[0m22:25:26  Running with dbt=1.11.8","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.477810Z","level":"info","event":"\u001b[0m22:25:28  Registered adapter: postgres=1.10.0","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.478321Z","level":"info","event":"\u001b[0m22:25:29  Encountered an error:","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.478842Z","level":"info","event":"'dbt_postgres://macros/adapters.sql'","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.479311Z","level":"info","event":"\u001b[0m22:25:29  Traceback (most recent call last):","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.479816Z","level":"info","event":"  File \"/home/airflow/.local/lib/python3.13/site-packages/dbt/cli/requires.py\", line 182, in wrapper","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.480297Z","level":"info","event":"    result, success = func(*args, **kwargs)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.480805Z","level":"info","event":"                      ~~~~^^^^^^^^^^^^^^^^^","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.481317Z","level":"info","event":"  File \"/home/airflow/.local/lib/python3.13/site-packages/dbt/cli/requires.py\", line 128, in wrapper","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.481841Z","level":"info","event":"    return func(*args, **kwargs)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.482367Z","level":"info","event":"  File \"/home/airflow/.local/lib/python3.13/site-packages/dbt/cli/requires.py\", line 276, in wrapper","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.482947Z","level":"info","event":"    return func(*args, **kwargs)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.483483Z","level":"info","event":"  File \"/home/airflow/.local/lib/python3.13/site-packages/dbt/cli/requires.py\", line 321, in wrapper","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.484031Z","level":"info","event":"    return func(*args, **kwargs)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.484651Z","level":"info","event":"  File \"/home/airflow/.local/lib/python3.13/site-packages/dbt/cli/requires.py\", line 391, in wrapper","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.485795Z","level":"info","event":"    return func(*args, **kwargs)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.487321Z","level":"info","event":"  File \"/home/airflow/.local/lib/python3.13/site-packages/dbt/cli/requires.py\", line 368, in wrapper","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.488329Z","level":"info","event":"    return func(*args, **kwargs)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.489071Z","level":"info","event":"  File \"/home/airflow/.local/lib/python3.13/site-packages/dbt/cli/requires.py\", line 407, in wrapper","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.489727Z","level":"info","event":"    setup_manifest(ctx, write=write, write_perf_info=write_perf_info)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.490326Z","level":"info","event":"    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.490935Z","level":"info","event":"  File \"/home/airflow/.local/lib/python3.13/site-packages/dbt/cli/requires.py\", line 434, in setup_manifest","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.491571Z","level":"info","event":"    ctx.obj[\"manifest\"] = parse_manifest(","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.492134Z","level":"info","event":"                          ~~~~~~~~~~~~~~^","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.492802Z","level":"info","event":"        runtime_config,","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.493441Z","level":"info","event":"        ^^^^^^^^^^^^^^^","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.494043Z","level":"info","event":"    ...<3 lines>...","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.515574Z","level":"info","event":"        active_integrations,","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.516269Z","level":"info","event":"        ^^^^^^^^^^^^^^^^^^^^","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.516858Z","level":"info","event":"    )","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.517404Z","level":"info","event":"    ^","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.518057Z","level":"info","event":"  File \"/home/airflow/.local/lib/python3.13/site-packages/dbt/parser/manifest.py\", line 2257, in parse_manifest","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.518729Z","level":"info","event":"    manifest = ManifestLoader.get_full_manifest(","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.519585Z","level":"info","event":"        runtime_config,","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.520423Z","level":"info","event":"        write_perf_info=write_perf_info,","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.521043Z","level":"info","event":"    )","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.521733Z","level":"info","event":"  File \"/home/airflow/.local/lib/python3.13/site-packages/dbt/parser/manifest.py\", line 323, in get_full_manifest","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.522271Z","level":"info","event":"    manifest = loader.load()","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.522712Z","level":"info","event":"  File \"/home/airflow/.local/lib/python3.13/site-packages/dbt/parser/manifest.py\", line 392, in load","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.523157Z","level":"info","event":"    self.load_and_parse_macros(project_parser_files)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.523599Z","level":"info","event":"    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.524037Z","level":"info","event":"  File \"/home/airflow/.local/lib/python3.13/site-packages/dbt/parser/manifest.py\", line 707, in load_and_parse_macros","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.524500Z","level":"info","event":"    block = FileBlock(self.manifest.files[file_id])","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.524930Z","level":"info","event":"                      ~~~~~~~~~~~~~~~~~~~^^^^^^^^^","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.525341Z","level":"info","event":"KeyError: 'dbt_postgres://macros/adapters.sql'","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.525842Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.526294Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.526744Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-12T22:25:36.471938Z","level":"error","event":"Task failed with exception","logger":"task","filename":"task_runner.py","lineno":1347,"error_detail":[{"exc_type":"Exception","exc_value":"dbt run failed: ","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1263,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1678,"name":"_execute_task"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/sdk/bases/operator.py","lineno":443,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/sdk/bases/decorator.py","lineno":397,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/sdk/bases/operator.py","lineno":443,"name":"wrapper"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/providers/standard/operators/python.py","lineno":227,"name":"execute"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/providers/standard/operators/python.py","lineno":250,"name":"execute_callable"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":97,"name":"run"},{"filename":"/opt/airflow/dags/pipeline_dags.py","lineno":34,"name":"run_dbt"}],"is_group":false,"exceptions":[]}]}

@@ -1,0 +1,12 @@
+finance_dbt:
+  outputs:
+    dev:
+      dbname: dbname
+      host: host
+      pass: password
+      port: 5434
+      schema: schema
+      threads: 4
+      type: postgres
+      user: username
+  target: dev

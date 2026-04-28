@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: daily_returns
+    columns:
+      - name: ticker
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["AAPL", "GOOGL", "MSFT", "NVDA", "BTC-USD", "ETH-USD", "SOL-USD"]
+      - name: date
+        tests:
+          - not_null
+
+  - name: price_summary
+    columns:
+      - name: ticker
+        tests:
+          - not_null
+          - unique
+      - name: all_time_low
+        tests:
+          - not_null
+      - name: latest_close
+        tests:
+          - not_null

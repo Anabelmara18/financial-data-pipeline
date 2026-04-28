@@ -1,0 +1,6 @@
+{"timestamp":"2026-04-14T13:12:52.883303Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-14T13:12:52.891683Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_dags.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-14T13:12:55.801240Z","level":"info","event":"Failed to create TzCache, reason: Error creating TzCache folder: '/home/airflow/.cache/py-yfinance' reason: [Errno 17] File exists: '/home/airflow/.cache/py-yfinance'. TzCache will not be used. Tip: You can direct cache to use a different location with 'set_tz_cache_location(mylocation)'","logger":"yfinance","filename":"cache.py","lineno":132}
+{"timestamp":"2026-04-14T13:13:05.160443Z","level":"info","event":"(7, 8)","logger":"task.stdout"}
+{"timestamp":"2026-04-14T13:13:05.236955Z","level":"info","event":"✅ Data saved to Postgres","logger":"task.stdout"}
+{"timestamp":"2026-04-14T13:13:05.237773Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":229}

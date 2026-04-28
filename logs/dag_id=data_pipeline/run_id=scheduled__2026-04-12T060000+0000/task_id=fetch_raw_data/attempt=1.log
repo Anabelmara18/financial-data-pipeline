@@ -1,0 +1,73 @@
+{"timestamp":"2026-04-12T21:38:30.594906Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-12T21:38:30.623519Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_dags.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-12T21:38:39.745574Z","level":"info","event":"        date        open  ...  ticker                ingested_at","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:39.746867Z","level":"info","event":"0 2024-01-02  183.731308  ...    AAPL 2026-04-12 21:38:39.722307","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:39.747398Z","level":"info","event":"1 2024-01-03  182.355606  ...    AAPL 2026-04-12 21:38:39.722307","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:39.747917Z","level":"info","event":"2 2024-01-04  180.039673  ...    AAPL 2026-04-12 21:38:39.722307","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:39.748352Z","level":"info","event":"3 2024-01-05  179.317154  ...    AAPL 2026-04-12 21:38:39.722307","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:39.748720Z","level":"info","event":"4 2024-01-08  183.652130  ...    AAPL 2026-04-12 21:38:39.722307","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:39.749263Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:39.750865Z","level":"info","event":"[5 rows x 8 columns]","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:39.751940Z","level":"info","event":"(569, 8)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:40.664428Z","level":"info","event":"        date        open  ...  ticker                ingested_at","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:40.665102Z","level":"info","event":"0 2024-01-02  137.037384  ...   GOOGL 2026-04-12 21:38:40.655729","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:40.665513Z","level":"info","event":"1 2024-01-03  137.781235  ...   GOOGL 2026-04-12 21:38:40.655729","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:40.666021Z","level":"info","event":"2 2024-01-04  135.271973  ...   GOOGL 2026-04-12 21:38:40.655729","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:40.667717Z","level":"info","event":"3 2024-01-05  134.617386  ...   GOOGL 2026-04-12 21:38:40.655729","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:40.668687Z","level":"info","event":"4 2024-01-08  137.701889  ...   GOOGL 2026-04-12 21:38:40.655729","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:40.669350Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:40.669896Z","level":"info","event":"[5 rows x 8 columns]","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:40.670536Z","level":"info","event":"(1138, 8)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:41.740004Z","level":"info","event":"        date        open  ...  ticker                ingested_at","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:41.740865Z","level":"info","event":"0 2024-01-02  364.589417  ...    MSFT 2026-04-12 21:38:41.724895","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:41.743803Z","level":"info","event":"1 2024-01-03  364.324005  ...    MSFT 2026-04-12 21:38:41.724895","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:41.744740Z","level":"info","event":"2 2024-01-04  361.709076  ...    MSFT 2026-04-12 21:38:41.724895","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:41.745453Z","level":"info","event":"3 2024-01-05  361.522308  ...    MSFT 2026-04-12 21:38:41.724895","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:41.746149Z","level":"info","event":"4 2024-01-08  368.344757  ...    MSFT 2026-04-12 21:38:41.724895","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:41.746851Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:41.747633Z","level":"info","event":"[5 rows x 8 columns]","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:41.793941Z","level":"info","event":"(1707, 8)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:42.621574Z","level":"info","event":"        date       open       high  ...     volume  ticker                ingested_at","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:42.624844Z","level":"info","event":"0 2024-01-02  48.138569  49.264879  ...  411254000    NVDA 2026-04-12 21:38:42.612447","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:42.625971Z","level":"info","event":"1 2024-01-03  47.539932  48.154554  ...  320896000    NVDA 2026-04-12 21:38:42.612447","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:42.626586Z","level":"info","event":"2 2024-01-04  47.968678  48.470370  ...  306535000    NVDA 2026-04-12 21:38:42.612447","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:42.627188Z","level":"info","event":"3 2024-01-05  49.067001  49.516727  ...  415039000    NVDA 2026-04-12 21:38:42.612447","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:42.627893Z","level":"info","event":"4 2024-01-08  52.221077  52.243067  ...  642510000    NVDA 2026-04-12 21:38:42.612447","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:42.628469Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:42.629173Z","level":"info","event":"[5 rows x 8 columns]","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:42.630072Z","level":"info","event":"(2276, 8)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:43.666551Z","level":"info","event":"        date          open  ...   ticker                ingested_at","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:43.667391Z","level":"info","event":"0 2024-01-01  44167.332031  ...  BTC-USD 2026-04-12 21:38:43.643412","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:43.671661Z","level":"info","event":"1 2024-01-02  44957.968750  ...  BTC-USD 2026-04-12 21:38:43.643412","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:43.672424Z","level":"info","event":"2 2024-01-03  42848.175781  ...  BTC-USD 2026-04-12 21:38:43.643412","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:43.673490Z","level":"info","event":"3 2024-01-04  44179.921875  ...  BTC-USD 2026-04-12 21:38:43.643412","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:43.674263Z","level":"info","event":"4 2024-01-05  44162.691406  ...  BTC-USD 2026-04-12 21:38:43.643412","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:43.675701Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:43.678070Z","level":"info","event":"[5 rows x 8 columns]","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:43.679680Z","level":"info","event":"(3106, 8)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:44.557401Z","level":"info","event":"        date         open  ...   ticker                ingested_at","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:44.559673Z","level":"info","event":"0 2024-01-01  2352.327881  ...  ETH-USD 2026-04-12 21:38:44.538574","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:44.560271Z","level":"info","event":"1 2024-01-02  2355.836426  ...  ETH-USD 2026-04-12 21:38:44.538574","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:44.560686Z","level":"info","event":"2 2024-01-03  2210.761963  ...  ETH-USD 2026-04-12 21:38:44.538574","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:44.561350Z","level":"info","event":"3 2024-01-04  2269.038086  ...  ETH-USD 2026-04-12 21:38:44.538574","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:44.562132Z","level":"info","event":"4 2024-01-05  2268.647217  ...  ETH-USD 2026-04-12 21:38:44.538574","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:44.563021Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:44.564005Z","level":"info","event":"[5 rows x 8 columns]","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:44.564906Z","level":"info","event":"(3936, 8)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:48.196921Z","level":"info","event":"        date        open  ...   ticker                ingested_at","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:48.197553Z","level":"info","event":"0 2024-01-01  109.508682  ...  SOL-USD 2026-04-12 21:38:48.182384","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:48.198016Z","level":"info","event":"1 2024-01-02  106.611221  ...  SOL-USD 2026-04-12 21:38:48.182384","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:48.198384Z","level":"info","event":"2 2024-01-03   98.594437  ...  SOL-USD 2026-04-12 21:38:48.182384","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:48.198764Z","level":"info","event":"3 2024-01-04  105.077538  ...  SOL-USD 2026-04-12 21:38:48.182384","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:48.199140Z","level":"info","event":"4 2024-01-05   99.978790  ...  SOL-USD 2026-04-12 21:38:48.182384","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:48.199565Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:48.200041Z","level":"info","event":"[5 rows x 8 columns]","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:48.200577Z","level":"info","event":"(4766, 8)","logger":"task.stdout"}
+{"timestamp":"2026-04-12T21:38:48.865638Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":229}
+{"timestamp":"2026-04-12T23:21:14.307510Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-12T23:21:14.326290Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_dags.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-12T23:30:33.426843Z","level":"error","event":"Process timed out, PID: 446","logger":"airflow.dag_processing.importers.python_importer","filename":"python_importer.py","lineno":62}
+{"timestamp":"2026-04-12T23:30:33.436950Z","level":"error","event":"Failed to import: /opt/airflow/dags/pipeline_dags.py","logger":"airflow.dag_processing.importers.python_importer","filename":"python_importer.py","lineno":244,"error_detail":[{"exc_type":"AirflowTaskTimeout","exc_value":"DagBag import timeout for /opt/airflow/dags/pipeline_dags.py after 30.0s.\nPlease take a look at these docs to improve your DAG import time:\n* https://airflow.apache.org/docs/apache-airflow/3.2.0/best-practices.html#top-level-python-code\n* https://airflow.apache.org/docs/apache-airflow/3.2.0/best-practices.html#reducing-dag-complexity, PID: 446","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/dag_processing/importers/python_importer.py","lineno":238,"name":"parse"},{"filename":"<frozen importlib._bootstrap_external>","lineno":1023,"name":"exec_module"},{"filename":"<frozen importlib._bootstrap>","lineno":488,"name":"_call_with_frames_removed"},{"filename":"/opt/airflow/dags/pipeline_dags.py","lineno":4,"name":"<module>"},{"filename":"/opt/airflow/data_ingestion/fetch_data.py","lineno":2,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/yfinance/__init__.py","lineno":23,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/yfinance/search.py","lineno":24,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/yfinance/utils.py","lineno":37,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/pandas/__init__.py","lineno":26,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/pandas/compat/__init__.py","lineno":29,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/pandas/compat/pyarrow.py","lineno":8,"name":"<module>"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/pyarrow/__init__.py","lineno":59,"name":"<module>"},{"filename":"<frozen importlib._bootstrap>","lineno":645,"name":"parent"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/dag_processing/importers/python_importer.py","lineno":65,"name":"handle_timeout"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2026-04-12T23:30:33.527655Z","level":"error","event":"Error loading DAG from pipeline_dags.py: DagBag import timeout for /opt/airflow/dags/pipeline_dags.py after 30.0s.\nPlease take a look at these docs to improve your DAG import time:\n* https://airflow.apache.org/docs/apache-airflow/3.2.0/best-practices.html#top-level-python-code\n* https://airflow.apache.org/docs/apache-airflow/3.2.0/best-practices.html#reducing-dag-complexity, PID: 446","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":327}
+{"timestamp":"2026-04-12T23:30:33.535488Z","level":"error","event":"Dag not found during start up","dag_id":"data_pipeline","bundle":"BundleInfo(name='dags-folder', version=None)","path":"pipeline_dags.py","logger":"task","filename":"task_runner.py","lineno":788}
+{"timestamp":"2026-04-12T23:30:33.540268Z","level":"warning","event":"Rescheduling task during startup, marking task as UP_FOR_RESCHEDULE","logger":"task","filename":"task_runner.py","lineno":1862}

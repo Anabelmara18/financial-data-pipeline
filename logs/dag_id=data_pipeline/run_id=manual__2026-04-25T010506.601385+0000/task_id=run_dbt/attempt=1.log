@@ -1,0 +1,25 @@
+{"timestamp":"2026-04-25T01:05:21.841078Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":209}
+{"timestamp":"2026-04-25T01:05:21.846840Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/pipeline_dags.py","logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":469}
+{"timestamp":"2026-04-25T01:02:04.278505Z","level":"info","event":"\u001b[0m01:05:27  Running with dbt=1.9.0","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.279944Z","level":"info","event":"\u001b[0m01:05:28  Registered adapter: postgres=1.9.0","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.280862Z","level":"info","event":"\u001b[0m01:05:30  Found 3 models, 7 data tests, 1 source, 434 macros","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.281781Z","level":"info","event":"\u001b[0m01:05:30","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.282710Z","level":"info","event":"\u001b[0m01:05:30  Concurrency: 4 threads (target='dev')","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.283556Z","level":"info","event":"\u001b[0m01:05:30","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.284461Z","level":"info","event":"\u001b[0m01:05:30  1 of 3 START sql view model public.stg_stock_price ............................. [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.285420Z","level":"info","event":"\u001b[0m01:05:31  1 of 3 OK created sql view model public.stg_stock_price ........................ [\u001b[32mCREATE VIEW\u001b[0m in 0.52s]","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.286417Z","level":"info","event":"\u001b[0m01:05:31  2 of 3 START sql table model public.daily_returns .............................. [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.287461Z","level":"info","event":"\u001b[0m01:05:31  3 of 3 START sql table model public.price_summary .............................. [RUN]","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.288344Z","level":"info","event":"\u001b[0m01:05:32  3 of 3 OK created sql table model public.price_summary ......................... [\u001b[32mSELECT 7\u001b[0m in 0.70s]","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.289190Z","level":"info","event":"\u001b[0m01:05:32  2 of 3 OK created sql table model public.daily_returns ......................... [\u001b[32mSELECT 4863\u001b[0m in 0.72s]","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.290183Z","level":"info","event":"\u001b[0m01:05:32","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.291170Z","level":"info","event":"\u001b[0m01:05:32  Finished running 2 table models, 1 view model in 0 hours 0 minutes and 1.73 seconds (1.73s).","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.292105Z","level":"info","event":"\u001b[0m01:05:32","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.293023Z","level":"info","event":"\u001b[0m01:05:32  \u001b[32mCompleted successfully\u001b[0m","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.293940Z","level":"info","event":"\u001b[0m01:05:32","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.294924Z","level":"info","event":"\u001b[0m01:05:32  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.295841Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.296717Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-04-25T01:02:04.278817Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator","filename":"python.py","lineno":229}
+{"timestamp":"2026-04-25T01:05:37.733394Z","level":"error","event":"Top level error","logger":"task","filename":"task_runner.py","lineno":1881,"error_detail":[{"exc_type":"AirflowRuntimeError","exc_value":"API_SERVER_ERROR: {'status_code': 403, 'message': 'Invalid auth token: The token is not yet valid (iat)', 'detail': {'detail': 'Invalid auth token: The token is not yet valid (iat)'}}","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1874,"name":"main"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1359,"name":"run"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/sdk/execution_time/comms.py","lineno":219,"name":"send"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/sdk/execution_time/comms.py","lineno":313,"name":"_get_response"},{"filename":"/home/airflow/.local/lib/python3.13/site-packages/airflow/sdk/execution_time/comms.py","lineno":300,"name":"_from_frame"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2026-04-25T01:05:37.763168Z","level":"warning","event":"Process exited abnormally","exit_code":1,"logger":"task"}

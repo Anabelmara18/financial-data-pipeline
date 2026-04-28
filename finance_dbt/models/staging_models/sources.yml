@@ -1,0 +1,34 @@
+version: 2
+
+sources:
+  - name: public
+    schema: public 
+    tables:
+      - name: finance_data
+        description: "This table contains historical stock and cryptocurrency data, including open, high, low, close prices, volume, ticker symbol, and the timestamp of when the data was ingested. It serves as the raw source of financial data for analysis and modeling in our dbt project."
+        columns:
+          - name: date
+            test: not_null
+            description: "The date of the financial data record."
+          - name: open
+            test: not_null
+            description: "The opening price of the stock or cryptocurrency on the given date."
+          - name: high
+            test: not_null
+            description: "The highest price of the stock or cryptocurrency on the given date."
+          - name: low
+            test: not_null
+            description: "The lowest price of the stock or cryptocurrency on the given date."
+          - name: close
+            test: not_null
+            description: "The closing price of the stock or cryptocurrency on the given date."
+          - name: volume
+            test: not_null
+            description: "The trading volume of the stock or cryptocurrency on the given date."
+          - name: ticker
+            test: not_null
+            description: "The ticker symbol representing the stock or cryptocurrency (e.g., AAPL for Apple Inc., BTC-USD for Bitcoin)."
+          - name: ingested_at
+            test: not_null
+            description: "The timestamp indicating when this data record was ingested into the database."
+
