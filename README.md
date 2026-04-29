@@ -6,7 +6,7 @@ End-to-end financial data pipeline tracking Tech Giants & Crypto — built with 
 This pipeline automatically fetches daily stock and cryptocurrency data for 7 assets (AAPL, GOOGL, MSFT, NVDA, BTC-USD, ETH-USD, SOL-USD), transforms it using dbt, stores it in PostgreSQL, exports to AWS S3, and visualizes it in Apache Superset.
 
 ## Dashboard Preview
-![Dashboard Preview](assets/dashboard.jpg)
+![Dashboard Preview](assets/Dashboard.jpg)
 > Screenshot of the Apache Superset dashboard showing price trends, daily returns, and asset summaries. A live version is not currently hosted but can be run locally using the setup instructions below.
 
 ## Architecture
@@ -57,7 +57,7 @@ The Superset dashboard includes:
 - Trading volume over time — volume bar chart
 - Crypto vs Stocks comparison
 
-> To add your own dashboard screenshot: take a screenshot of your Superset dashboard, save it as `assets/dashboard.png` in the project root, and it will display automatically in this README.
+> To add your own dashboard screenshot: take a screenshot of your Superset dashboard, save it as `assets/dashboard.jpg` in the project root, and it will display automatically in this README.
 
 ## Setup
 
