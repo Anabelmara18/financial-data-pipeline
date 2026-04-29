@@ -118,6 +118,8 @@ services:
   
   superset:
     image: apache/superset:3.1.0
+    volumes:
+      - superset-db-volume:/app/superset_home
     ports:
       - "8088:8088"
     env_file:
@@ -366,5 +368,4 @@ services:
 
 volumes:
   postgres-db-volume:
-  superset-db-volume:
-
+  superset-db-volume:  
