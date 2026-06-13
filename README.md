@@ -10,7 +10,7 @@ This pipeline automatically fetches daily stock and cryptocurrency data for 7 as
 > Screenshot of the Apache Superset dashboard showing price trends, daily returns, and asset summaries. A live version is not currently hosted but can be run locally using the setup instructions below.
 
 ## Architecture
-![Dashboard Preview](assets/Finance data pipeline.drawio.png)
+![Architecture Preview](assets/Architecture.png)
 
 ## Tech Stack
 - **Orchestration:** Apache Airflow 3.2.0
